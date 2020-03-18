@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Roboto');
+
+/* timer css */
+.counter-wrap {
+  float: right;
+  margin-right: 10%;
+}
+@media (max-width: 1199px) {
+  .counter-wrap {
+    margin-right: 0;
+  }
+}
+
+.counter-wrap .caption {
+	text-align: center;
+	text-transform: uppercase;
+	color: red;
+	font-weight: 700;
+	font-size: 1.4em;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);  
+  font-family: "Cabin Sketch", "Roboto Slab", georgia, serif;
+}
+
+.counter-wrap .number {
+	border-bottom: 1px solid red; 
+	text-align: center;
+	font-size: 3.75em;
+	font-weight: 700;
+  margin-bottom: 0px; 
+  color: red;
+  font-family: "Cabin Sketch", "Roboto Slab", georgia, serif;
+}
+
+.container .questionbox{
+  width: 90%;
+  max-width: 400px;
+  padding: 100px;
+  margin:auto;
+  margin-top: 0px;
+  background-color: rgb(224, 228, 227);
+  border: 1px solid rgb(145, 142, 142);
+  border-radius: 10px;
+  float: center;
+
+}
+
+/* pain in the butt map */
+  .main-content {
+  background-image: url("./images/map_green.png");
+  background-attachment: fixed;
+  }
+
+  #einstein-start-game {
+    width: 700px;
+    height: 300px;
+    margin-left: 110px;
+    border: none;
+    background: url(./images/einstein-cloud.png); 
+    background-size: 700px 300px;
+  }
+
+  #einstein-next-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 94px;
+    cursor: pointer;
+  }
+
+  #einstein-previous-button,
+  clear-button {
+    background-color: rgb(212, 219, 214);
+    display: block;
+    margin-left:0;
+    width:75px;
+    opacity:0.75;
+  }
+
+  #resetbutton,
+  clear-button {
+    background-color: rgb(119, 124, 121);
+    display: block;
+    margin-right:0;
+    width:75px;
+    opacity:0.75;
+    float: right;
+  }
+
+  #next-question-button {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+    /* margin-left: 130px; */
+  }
+  /* #einstein-next-button :hover {
+    width: 115px;
+    height: 115px;
+    margin-top: -16px; 
+  }*/
+
+  #einstein-previous-button,
+  clear-button {
+    background-color: rgb(212, 219, 214);
+    display: block;
+    margin-left:50px;
+    width:75px;
+    opacity:0.75;
+
+  
+  }
+  #resetbutton,
+  clear-button {
+    background-color: rgb(119, 124, 121);
+    display: block;
+    margin-right:0;
+    width:75px;
+    opacity:0.75;
+    float: right;
+  }
+
+  #span-user-score {
+    color:#481380;
+	  font-family: "Cabin Sketch", "Roboto Slab", georgia, serif;
+	  font-weight:700;
+	  text-align:center;
+	  font-size:40px;
+	  margin:3px 0 0 0;
+	  padding:0 0 0 15px;
+	  letter-spacing:1px;
+  }
+
+  input[type='image'] {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    float: right;
+    margin-right: 640px;
+    margin-top: -5px;
+  }
+  input[type='image']:hover {
+    width: 60px;
+    height: 60px;
+    margin-right: 718px;
+    margin-top: -8px;
+  }
+  @media (max-width: 1199px) {
+    input[type='image'] {
+      margin-right: 640px;
+    }
+  }
+ 
+/* added by smak  - highscore container*/
+ol {
+  display: block;
+  list-style-type: decimal;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+  li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+  }
+ 
+  body {
+    font-family: "Cabin Sketch", "Roboto Slab", georgia, serif;
+    font-size: 15px;
+    margin: 0;
+    color: #b0b3b6;
+  }
+ 
+  font.header{
+    font-size: 48px;
+    font-size: 3rem;
+    color: white;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+    font-family: 'Cabin Sketch', cursive;
+
+  }
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  /* =========== Main Question Box ==============*/
+  
+  .grid {
+    width: 950px;
+    /* height: 680px; */
+    height: 420px;
+    max-height: 900px;
+    padding: 10px 20px 10px 20px;
+    margin: 10px 5px;
+    /* margin-top: 10px; */
+    background-color: rgb(212, 219, 214);
+    opacity:1.0;
+    border: 1px solid rgb(197, 193, 193);
+    border-radius: 10px;
+    /* margin-left: 50px; */
+    color:rgb(134, 134, 129);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #player-score{
+    color:rgb(175, 34, 34);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 40px;
+    text-decoration: underline;
+    font-weight: bold;
+
+  }
+
+  .container-gameover {
+      width: 700px;
+      /* height: 680px; */
+      height: 320px;
+      max-height: 1000px;
+      padding: 10px 20px 10px 50px;
+      margin: 10px 5px;
+      /* margin-top: 10px; */
+      background-color: rgb(212, 219, 214);
+      opacity: 1.0;
+      border: 1px solid rgb(197, 193, 193);
+      border-radius: 10px;
+      /* margin-left: 50px; */
+      color: rgb(134, 134, 129);
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      margin-right: 150px;
+      margin: auto;
+
+      
+      ol {
+        list-style: none;
+        counter-reset: item;
+      }
+      li {
+        counter-increment: item;
+        margin-bottom: 5px;
+      }
+      li:before {
+        margin-right: 10px;
+        content: counter(item);
+        background: lightblue;
+        border-radius: 100%;
+        color: white;
+        width: 1.2em;
+        text-align: center;
+        display: inline-block;
+      }
+
+      }
